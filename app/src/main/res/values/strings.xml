@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">rendimiento_ventas</string>
+    <string name="txt_titulo">FarmaLógica</string>
+    <string name="txt_subtitulo">Elije tu opción</string>
+    <string name="imgfot">Este control permitirá la utilización de la camara</string>
+    <string name="imglista">Este control permitirá llamar a la lista de vendedores</string>
+    <string name="imggrafico">Este control permitirá ver el reporte de las 3 mejores ventas</string>
+    <string name="txtop1">Acceso camara</string>
+    <string name="txtop2">Mejores Vendedores </string>
+    <string name="txtop3">Estadísticas</string>
+    <string name="txranking">Numero de Venta de los 3 mejores vendedores</string>
+    <string name="txdesv1">Nombre de los mejores 3 vendedores de esta semana</string>
+</resources>
