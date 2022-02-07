@@ -53,8 +53,8 @@ public class CamaraActivity extends AppCompatActivity {
     public void tomarFoto(View view)throws IOException  {
         Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         File photoFile = createImagefile();
-        Uri photoUri = FileProvider.getUriForFile(this, "com.example.andpoid.fileprovider", photoFile);
-        takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, photoUri);
+        //Uri photoUri = FileProvider.getUriForFile(this, "com.example.android.fileprovider", photoFile);
+        //takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, photoUri);
         startActivityForResult(takePictureIntent, REQUEST_TAKE_PHOTO);
     }
     //Método para mostrar vista previa en un imageview de la foto tomada
